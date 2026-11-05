@@ -1,513 +1,83 @@
-
 <!doctype html>
 <html lang="es">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CSS Fácil</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-        rel="stylesheet">
-
+    <title>Mi primer maqueta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <style>
-        body {
-            background-color: #f1f4f9;
-        }
-
-        /* COLORES ORIGINALES */
         .caja1 {
-            min-height: 100px;
+            height: 100px;
             background-color: #011C6B;
-            color: white;
         }
 
         .caja2 {
-            min-height: 300px;
+            height: 300px;
             background-color: #011142;
         }
 
         .caja3 {
-            min-height: 300px;
+            height: 300px;
             background-color: #01258F;
         }
 
         .caja4 {
-            min-height: 300px;
+            height: 300px;
             background-color: #023BE6;
         }
 
         .caja5 {
-            min-height: 300px;
+            height: 300px;
             background-color: #0231BD;
         }
 
         .caja6 {
-            min-height: 300px;
+            height: 300px;
             background-color: #A67879;
         }
 
         .caja7 {
-            min-height: 300px;
+            height: 300px;
             background-color: #84C484;
         }
 
         .caja8 {
-            min-height: 300px;
+            height: 300px;
             background-color: #716F82;
         }
 
         .caja9 {
-            min-height: 300px;
+            height: 300px;
             background-color: #011C6B;
         }
 
         .caja10 {
-            min-height: 150px;
+            height: 300px;
             background-color: #011142;
-        }
-
-        /* MENÚ */
-        .menu {
-            background-color: white;
-            padding: 15px;
-        }
-
-        .menu .btn {
-            width: 100%;
-            min-height: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        /* CONTENIDO */
-        .contenido {
-            color: white;
-            padding: 25px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-        }
-
-        .contenido h2 {
-            font-size: 25px;
-            font-weight: bold;
-        }
-
-        .contenido p {
-            font-size: 16px;
-        }
-
-        /* ILUSTRACIONES */
-        .ilustracion {
-            width: 100%;
-            max-width: 280px;
-            height: 145px;
-            margin-bottom: 15px;
-            background-color: white;
-            border-radius: 10px;
-            padding: 8px;
-        }
-
-        .ilustracion text {
-            font-family: Arial, sans-serif;
         }
     </style>
 </head>
 
 <body>
-
     <div class="container-fluid">
-
-        <!-- ENCABEZADO -->
         <div class="row">
-            <nav class="col-12 caja1 d-flex align-items-center justify-content-center">
-                <h1 class="fw-bold">CSS FÁCIL</h1>
-            </nav>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 caja1">caja</div>
+            <div class="col-12 col-sm-12 col-md-10 col-lg-12 col-xl-12 col-xxl-12 caja2">caja</div>
+            <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-4 col-xxl-4 caja3">caja</div>
+            <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-4 col-xxl-4 caja4">caja</div>
+            <div class="col-6 col-sm-6 col-md-10 col-lg-10 col-xl-4 col-xxl-4 caja5">caja</div>
+            <div class="col-6 col-sm-6 col-md-12 col-lg-12 col-xl-3 col-xxl-3 caja6">caja</div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 col-xxl-2 caja7">caja</div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 col-xxl-2 caja8">caja</div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-2 col-xxl-2 caja9">caja</div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 col-xxl-3 caja10">caja</div>
         </div>
-
-        <!-- MENÚ DE NAVEGACIÓN -->
-        <nav class="col-12 menu">
-            <div class="row g-2">
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <a class="btn btn-outline-primary" href="#estructura">
-                        Estructura y Sintaxis
-                    </a>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <a class="btn btn-outline-primary" href="#especificidad">
-                        Niveles de especificidad
-                    </a>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <a class="btn btn-outline-primary" href="#pseudo">
-                        Pseudo Clases y Elementos
-                    </a>
-                </div>
-
-                <div class="col-12 col-sm-6 col-lg-3">
-                    <a class="btn btn-outline-primary" href="#boxmodel">
-                        Box Model
-                    </a>
-                </div>
-
-            </div>
-        </nav>
-
-        <!-- CONTENIDO PRINCIPAL -->
-        <div class="row g-2 mt-1">
-
-            <!-- 1. ESTRUCTURA Y SINTAXIS -->
-            <header id="estructura" class="col-12 caja2 contenido">
-
-                <svg class="ilustracion" viewBox="0 0 320 145">
-
-                    <rect x="15" y="12" width="290" height="120"
-                        rx="8" fill="#eaf1ff" stroke="#1746a2" stroke-width="2"/>
-
-                    <text x="28" y="35" font-size="12" fill="#1746a2">
-                        EJEMPLO CSS
-                    </text>
-
-                    <text x="35" y="62" font-size="17" fill="#023BE6">
-                        h1
-                    </text>
-
-                    <text x="65" y="62" font-size="17" fill="#202b3c">
-                        {
-                    </text>
-
-                    <text x="55" y="84" font-size="15" fill="#A67879">
-                        color:
-                    </text>
-
-                    <text x="112" y="84" font-size="15" fill="#023BE6">
-                        blue;
-                    </text>
-
-                    <text x="65" y="106" font-size="17" fill="#202b3c">
-                        }
-                    </text>
-
-                </svg>
-
-                <h2>Estructura y Sintaxis</h2>
-                <p>Aprende los fundamentos de CSS.</p>
-
-            </header>
-
-            <!-- 2. ESPECIFICIDAD -->
-            <aside id="especificidad" class="col-12 col-md-6 col-xl-4 caja3 contenido">
-
-                <svg class="ilustracion" viewBox="0 0 320 145">
-
-                    <rect x="25" y="15" width="270" height="32"
-                        rx="5" fill="#e6edff"/>
-
-                    <text x="45" y="36" font-size="15" fill="#1746a2">
-                        #identificador
-                    </text>
-
-                    <text x="250" y="36" font-size="12" fill="#1746a2">
-                        100
-                    </text>
-
-                    <rect x="25" y="56" width="270" height="32"
-                        rx="5" fill="#d5e3ff"/>
-
-                    <text x="45" y="77" font-size="15" fill="#1746a2">
-                        .clase
-                    </text>
-
-                    <text x="250" y="77" font-size="12" fill="#1746a2">
-                        10
-                    </text>
-
-                    <rect x="25" y="97" width="270" height="32"
-                        rx="5" fill="#b8d0ff"/>
-
-                    <text x="45" y="118" font-size="15" fill="#1746a2">
-                        elemento
-                    </text>
-
-                    <text x="250" y="118" font-size="12" fill="#1746a2">
-                        1
-                    </text>
-
-                </svg>
-
-                <h2>Niveles de especificidad</h2>
-                <p>Conoce cómo CSS determina qué estilos aplicar.</p>
-
-            </aside>
-
-            <!-- 3. PSEUDO CLASES -->
-            <section id="pseudo" class="col-12 col-md-6 col-xl-4 caja4 contenido">
-
-                <svg class="ilustracion" viewBox="0 0 320 145">
-
-                    <text x="25" y="25" font-size="13" fill="#1746a2">
-                        Estado normal
-                    </text>
-
-                    <rect x="25" y="35" width="115" height="42"
-                        rx="7" fill="#1746a2"/>
-
-                    <text x="82" y="61" text-anchor="middle"
-                        font-size="15" fill="white">
-                        Botón
-                    </text>
-
-                    <text x="180" y="25" font-size="13" fill="#1746a2">
-                        :hover
-                    </text>
-
-                    <rect x="180" y="35" width="115" height="42"
-                        rx="7" fill="#84C484" stroke="#1746a2" stroke-width="2"/>
-
-                    <text x="237" y="61" text-anchor="middle"
-                        font-size="15" fill="#011142">
-                        Botón
-                    </text>
-
-                    <path d="M140 56 L175 56" stroke="#1746a2"
-                        stroke-width="2" stroke-dasharray="4 3"/>
-
-                    <text x="160" y="110" text-anchor="middle"
-                        font-size="14" fill="#202b3c">
-                        Al pasar el mouse cambia el estilo
-                    </text>
-
-                </svg>
-
-                <h2>Pseudo Clases</h2>
-                <p>Permiten cambiar el estilo según el estado de un elemento.</p>
-
-            </section>
-
-            <!-- 4. PSEUDO ELEMENTOS -->
-            <aside class="col-12 col-md-12 col-xl-4 caja5 contenido">
-
-                <svg class="ilustracion" viewBox="0 0 320 145">
-
-                    <rect x="15" y="15" width="290" height="115"
-                        rx="8" fill="#edf2ff"/>
-
-                    <text x="30" y="40" font-size="14" fill="#023BE6">
-                        ::first-letter
-                    </text>
-
-                    <text x="30" y="92" font-size="55"
-                        font-weight="bold" fill="#023BE6">
-                        C
-                    </text>
-
-                    <text x="68" y="78" font-size="20" fill="#011142">
-                        SS es genial
-                    </text>
-
-                    <text x="30" y="116" font-size="12" fill="#A67879">
-                        Modifica una parte del texto
-                    </text>
-
-                </svg>
-
-                <h2>Pseudo Elementos</h2>
-                <p>Permiten modificar partes específicas de un elemento.</p>
-
-            </aside>
-
-            <!-- 5. BOX MODEL -->
-            <section id="boxmodel" class="col-12 col-md-4 caja7 contenido">
-
-                <svg class="ilustracion" viewBox="0 0 320 145">
-
-                    <rect x="15" y="12" width="290" height="120"
-                        fill="#f5c6cb" stroke="#a67879" stroke-width="2"/>
-
-                    <rect x="45" y="29" width="230" height="85"
-                        fill="#ffe4a8" stroke="#d99b37" stroke-width="2"/>
-
-                    <rect x="75" y="44" width="170" height="55"
-                        fill="#b9e4c9" stroke="#32965c" stroke-width="2"/>
-
-                    <rect x="105" y="56" width="110" height="30"
-                        fill="#b8d0ff" stroke="#1746a2" stroke-width="2"/>
-
-                    <text x="160" y="75" text-anchor="middle"
-                        font-size="12" fill="#011142">
-                        Contenido
-                    </text>
-
-                    <text x="160" y="108" text-anchor="middle"
-                        font-size="10" fill="#011142">
-                        Padding
-                    </text>
-
-                    <text x="160" y="25" text-anchor="middle"
-                        font-size="10" fill="#011142">
-                        Border
-                    </text>
-
-                    <text x="160" y="127" text-anchor="middle"
-                        font-size="10" fill="#011142">
-                        Margin
-                    </text>
-
-                </svg>
-
-                <h2>Box Model</h2>
-                <p>Comprende el modelo de cajas de CSS.</p>
-
-            </section>
-
-            <!-- 6. PADDING -->
-            <section class="col-12 col-md-4 caja8 contenido">
-
-                <svg class="ilustracion" viewBox="0 0 320 145">
-
-                    <rect x="35" y="20" width="250" height="105"
-                        rx="5" fill="#d5e3ff" stroke="#1746a2" stroke-width="2"/>
-
-                    <rect x="90" y="48" width="140" height="50"
-                        rx="5" fill="#1746a2"/>
-
-                    <text x="160" y="77" text-anchor="middle"
-                        font-size="17" fill="white">
-                        Contenido
-                    </text>
-
-                    <path d="M55 48 L55 98 M50 48 L60 48 M50 98 L60 98"
-                        stroke="#A67879" stroke-width="2"/>
-
-                    <text x="160" y="15" text-anchor="middle"
-                        font-size="13" fill="#1746a2">
-                        Espacio interno
-                    </text>
-
-                    <text x="160" y="116" text-anchor="middle"
-                        font-size="11" fill="#011142">
-                        Padding
-                    </text>
-
-                </svg>
-
-                <h2>Padding</h2>
-                <p>Es el espacio interno entre el contenido y el borde.</p>
-
-            </section>
-
-            <!-- 7. MARGIN -->
-            <section class="col-12 col-md-4 caja9 contenido">
-
-                <svg class="ilustracion" viewBox="0 0 320 145">
-
-                    <rect x="20" y="25" width="105" height="80"
-                        rx="5" fill="#b8d0ff" stroke="#1746a2" stroke-width="2"/>
-
-                    <rect x="195" y="25" width="105" height="80"
-                        rx="5" fill="#b8d0ff" stroke="#1746a2" stroke-width="2"/>
-
-                    <text x="72" y="70" text-anchor="middle"
-                        font-size="15" fill="#011142">
-                        Caja 1
-                    </text>
-
-                    <text x="247" y="70" text-anchor="middle"
-                        font-size="15" fill="#011142">
-                        Caja 2
-                    </text>
-
-                    <path d="M128 65 L192 65" stroke="#A67879"
-                        stroke-width="3" stroke-dasharray="5 4"/>
-
-                    <text x="160" y="52" text-anchor="middle"
-                        font-size="12" fill="#011142">
-                        Margin
-                    </text>
-
-                    <text x="160" y="125" text-anchor="middle"
-                        font-size="12" fill="#1746a2">
-                        Espacio externo
-                    </text>
-
-                </svg>
-
-                <h2>Margin</h2>
-                <p>Es el espacio externo que separa los elementos.</p>
-
-            </section>
-
-            <!-- 8. BORDES -->
-            <section class="col-12 col-md-6 caja6 contenido">
-
-                <svg class="ilustracion" viewBox="0 0 320 145">
-
-                    <rect x="45" y="22" width="230" height="100"
-                        rx="12" fill="#eaf1ff" stroke="#011C6B"
-                        stroke-width="6"/>
-
-                    <rect x="75" y="42" width="170" height="60"
-                        rx="6" fill="#b8d0ff" stroke="#023BE6"
-                        stroke-width="2" stroke-dasharray="7 4"/>
-
-                    <text x="160" y="78" text-anchor="middle"
-                        font-size="18" fill="#011142">
-                        Border
-                    </text>
-
-                </svg>
-
-                <h2>Bordes</h2>
-                <p>Personaliza los límites de tus elementos.</p>
-
-            </section>
-
-            <!-- 9. FOOTER -->
-            <footer class="col-12 col-md-6 caja10 contenido">
-
-                <svg class="ilustracion" viewBox="0 0 320 145">
-
-                    <rect x="20" y="12" width="280" height="120"
-                        rx="6" fill="#eaf1ff" stroke="#1746a2" stroke-width="2"/>
-
-                    <rect x="20" y="90" width="280" height="42"
-                        rx="0" fill="#011C6B"/>
-
-                    <text x="160" y="108" text-anchor="middle"
-                        font-size="13" fill="white">
-                        FOOTER
-                    </text>
-
-                    <text x="160" y="122" text-anchor="middle"
-                        font-size="9" fill="white">
-                        Información de contacto
-                    </text>
-
-                    <text x="160" y="52" text-anchor="middle"
-                        font-size="17" fill="#011142">
-                        Página web
-                    </text>
-
-                </svg>
-
-                <h2>CSS Fácil</h2>
-                <p>Aprende, practica y crea con CSS.</p>
-
-            </footer>
-
-        </div>
-
     </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
-    </script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
